@@ -46,8 +46,6 @@ nav ul li ul {
 	background-color: purple;
 	padding: 10px;
 	border-radius: 0px 0px 4px 4px;
-	
-	
 }
 
 nav ul li:hover ul {
@@ -65,7 +63,7 @@ nav ul li ul li a {
 }
 
 body {
-	background-color: #D19FE8;
+	background-color: white;
 }
 
 .logo {
@@ -161,5 +159,5 @@ body {
 }
 
 html {
-	background: white;
+	background-color: white;
 }
