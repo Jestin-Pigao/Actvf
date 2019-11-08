@@ -17,11 +17,12 @@
 		}
 
 		.actvflogo {
-			background: white;
-			padding-right: 600px;
-			padding-left: 600px;
-			display: flex; 
-			margin: 0 auto 0 auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			height: 140px;
+			width: 140px;
 		}
 
 		.SchoolStuff {
@@ -47,11 +48,11 @@
 		}
 
 		.Admissions {
-			background: white;
-			padding-right: 500px;
-			padding-left: 400px;
-			display: flex;
-			margin: 0 auto 0 auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 60%;
+			
 		}
 
 		.parallax {
@@ -64,6 +65,16 @@
 			padding-left: -100px;
 			padding-right: 400px;
 			font-size: 20px;
+		}
+
+		button {
+			margin: 0px;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+
+		.TheTwoButtons {
+			text-align: center;
 		}
 
 	</style>
@@ -190,14 +201,45 @@
 	</nav>
 
 	<script src="actvfapp.js"></script>
+	
 
 <h1 id="Actvf2020">
 <b>WELCOME TO ACTVF 2020 WEBSITE!!!</b>
 </h1>
 <img class="actvflogo" src="http://actvf.org/images/Index_01.gif">
 <a href="Admissions.html"><img class="Admissions" src="http://actvf.org/images/Index_05.gif"></a>
+<br>
+<div class="TheTwoButtons">
+	<button class="buttonOne">Welcome!</button>
+	<br>
+	<br>
+	<button class="buttonTwo">Who are you?</button>
+</div>
 
-<h1>
+<script type="text/javascript">
+		// Select your button
+		let buttonOne = document.querySelector(".buttonOne");
+		let buttonTwo = document.querySelector(".buttonTwo");
+
+		// Add a click event listener to make the button say a word.
+		buttonOne.addEventListener("click", function() {
+			// Your procedure goes here.
+			alert("Welcome to the New Version of Academy for Careers in Television and Film!");
+
+		});
+
+		// Add a click event listener to make the button say a word.
+		buttonTwo.addEventListener("click", function() {
+			// Your procedure goes here.
+			let name = prompt("Who are you?");
+			alert("Hello " + name);
+		})
+
+		//
+
+</script>
+
+<h2>
 <br>
 		<div class="container">
 			<p class="SchoolStuff">School</p>
@@ -210,13 +252,13 @@
 			<h1 class="Description">Welcome to the Cafeteria, its a place where you can eat breakfast and lunch with your friends. Unlike Elementary School, Middle School, Private School, and others, you are allowed to use your phones, ipad, or any electronic device, but you are not allowed to use speakers and play loud music, it's against the cafeteria rules, this means that you have to listen to them with headphones or earbuds or anytype of hearing. This cafeteria can also include school dances, events, after-school activities, etc. There are two cafeteria's. One is the small cafeteria and the second one is the big cafeteria. Also, this includes a vending machine to get any snacks, but there's no drinks.</h1>
 			<div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="actvf3.jpg" data-position="top" data-natural-width="1400" data-natural-height="900" style="height: 434px;"></div>
 			<p class="SchoolStuff">INSTAGRAM</p>
-			<h1 class="Description">The School now has an instagram account called "actvfpta". It will have updates, news, etc. from the pta. This instagram was formed by the PTA and it started on November 1st, 2017. Now it has 72 Followers and 25 posts (Subject to change).</h1>
+			<h1 class="Description">The School now has an instagram account called "actvfpta". It will have updates, news, etc. from the pta. This instagram was formed by the PTA and it started on November 1st, 2017. Now it has 73 Followers and 26 posts (Subject to change).</h1>
 			<div class="parallax"><a href="https://www.instagram.com/actvfpta/"><img src="https://www.freepngimg.com/download/logo/69768-logo-computer-layout-instagram-icons-png-file-hd.png" class="largepic"></a>
 		
 		</div>
 	</div>
 
-</h1>
+</h2>
 
 
 </body>
